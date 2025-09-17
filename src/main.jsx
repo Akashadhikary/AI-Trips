@@ -7,7 +7,7 @@ import CreateTrip from "./create-trip/index.jsx";
 import Header from "./components/custom/Header.jsx";
 import { ToastContainer } from "react-toastify";
 import { GoogleOAuthProvider } from "@react-oauth/google";
-import ViewTrip from "./view-trip/[tripId]/Index.jsx";
+import ViewTrip from "./view-trip/[tripId]/index.jsx";
 import MyTrips from "./my-trips/index.jsx";
 
 const router = createBrowserRouter([
