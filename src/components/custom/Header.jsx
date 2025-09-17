@@ -62,10 +62,15 @@ const Header = () => {
       <img src="/logo.svg" alt="logo" />
       {user ? (
         <div className="flex items-center gap-3">
+          <a href="/create-trip">
+            <Button variant="outlined" className="rounded-full">
+              Create Trip
+            </Button>
+          </a>
           <a href="/my-trips">
             <Button variant="outlined" className="rounded-full">
-            My Trips
-          </Button>
+              My Trips
+            </Button>
           </a>
           <div>
             <Button onClick={handleClick}>
